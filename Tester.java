@@ -20,5 +20,6 @@ public class Tester {
 		System.out.println(k.withdraw(1500));
 		System.out.println(k.getBalance());
 
+		System.out.println(k.toString());
     }
 }
