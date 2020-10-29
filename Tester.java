@@ -13,5 +13,12 @@ public class Tester {
 		System.out.println(k.deposit(1000));
 		System.out.println(k.getBalance());
 
+		System.out.println();
+
+		System.out.println(k.withdraw(-3242));
+		System.out.println(k.withdraw(434343411));
+		System.out.println(k.withdraw(1500));
+		System.out.println(k.getBalance());
+
     }
 }
